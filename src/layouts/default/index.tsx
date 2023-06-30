@@ -6,6 +6,7 @@ import { useStore } from "@/lib/store"
 import { poppins } from "@/lib/font"
 import css from "./layout.module.css"
 import { Loader } from "@/components/loader"
+import { Header } from "@/components/header"
 
 const Cursor: any = dynamic(
   () => import("@/components/cursor").then(({ Cursor }) => Cursor),
@@ -51,6 +52,7 @@ export default function Layout({
           isLayoutOverflow && "-overflow"
         )}
       >
+        <Header />
         <main>{children}</main>
       </div>
     </>

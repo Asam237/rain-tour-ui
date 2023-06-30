@@ -7,5 +7,5 @@
 }
 
 .inner {
-  @apply flex items-center justify-center h-full text-center;
+  @apply flex items-center justify-center h-full text-center text-lg lg:text-5xl;
 }

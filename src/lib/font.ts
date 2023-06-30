@@ -10,8 +10,13 @@ export const poppins = localFont({
       style: "normal",
     },
     {
-      path: "../fonts/poppins/Poppins-Bold.ttf",
-      weight: "700",
+      path: "../fonts/poppins/Poppins-Medium.ttf",
+      weight: "400",
+      style: "medium",
+    },
+    {
+      path: "../fonts/poppins/Poppins-SemiBold.ttf",
+      weight: "800",
       style: "bold",
     },
   ],

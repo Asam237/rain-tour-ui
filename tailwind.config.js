@@ -30,14 +30,14 @@ module.exports = {
         // Create our own container component
         // and ask tailwind to take it into account.
         ".container": {
-          maxWidth: "84vw",
+          maxWidth: "80vw",
           marginLeft: "auto",
           marginRight: "auto",
           "@screen md": {
-            maxWidth: "75vw",
+            maxWidth: "70vw",
           },
           "@screen lg": {
-            maxWidth: "66vw",
+            maxWidth: "60vw",
           },
         },
       })
