@@ -2,10 +2,6 @@
 
 Rain Tour UI Frontend
 <br/>
-<br/>
-[Figma UI Link](https://dribbble.com/shots/21872677-Rain-Tour-Travel-Agency)
-<br/>
-<br/>
 
 ## Stack
 
@@ -30,6 +26,9 @@ yarn dev
 <br />
 
 ## Figma
+
+[https://dribbble.com/shots/21872677-Rain-Tour-Travel-Agency](https://dribbble.com/shots/21872677-Rain-Tour-Travel-Agency)
+<br/>
 
 ## Authors
 
