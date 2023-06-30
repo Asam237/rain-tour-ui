@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    @apply bg-primary-300 text-gray-900;
+  }
+
+  html {
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: initial;
+    font-family: source-serif-pro, serif;
+    font-size: clamp(16px, 1.7vw, 30px);
+
+    /* Remove scrollbar */
+    scrollbar-width: none !important;
+  }
+
+  html,
+  body {
+    @apply w-full min-h-full overscroll-y-none bg-white text-black;
+  }
+
+  html body {
+    -ms-overflow-style: none;
+  }
+  
+  html body::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+  }
+}

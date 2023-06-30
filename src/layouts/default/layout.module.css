@@ -1,0 +1,9 @@
+.container {
+  @apply relative z-[2];
+}
+
+.container:global(.-overflow) {
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 99);
+  overflow: hidden;
+}

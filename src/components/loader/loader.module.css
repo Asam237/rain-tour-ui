@@ -1,0 +1,11 @@
+.container {
+  @apply fixed top-0 left-0 bottom-0 right-0 z-10 bg-white transition-opacity duration-300;
+}
+
+.container:global(.-complete) {
+  @apply pointer-events-none opacity-0;
+}
+
+.inner {
+  @apply flex items-center justify-center h-full text-center;
+}
