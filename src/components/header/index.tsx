@@ -13,7 +13,7 @@ export const Header = () => {
             <Image alt="logo" src={LogoPic} />
           </div>
           <nav>
-            <ul className="flex flex-col lg:flex-row lg:space-x-28 text-base font-medium lg:items-center text-gray-700 space-y-2 lg:space-y-0">
+            <ul className="flex flex-col lg:flex-row lg:space-x-20 text-base font-medium lg:items-center text-gray-700 space-y-2 lg:space-y-0">
               {HeaderData.map((item: HeaderType, index) => {
                 return (
                   <li key={index}>

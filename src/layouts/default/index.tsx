@@ -7,6 +7,7 @@ import { poppins } from "@/lib/font"
 import css from "./layout.module.css"
 import { Loader } from "@/components/loader"
 import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 
 const Cursor: any = dynamic(
   () => import("@/components/cursor").then(({ Cursor }) => Cursor),
@@ -54,6 +55,7 @@ export default function Layout({
       >
         <Header />
         <main>{children}</main>
+        <Footer />
       </div>
     </>
   )
