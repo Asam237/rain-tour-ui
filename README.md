@@ -1,7 +1,8 @@
 ## Rain Tour UI
 
 Rain Tour UI Frontend
-**Figma**: [https://dribbble.com/shots/21872677-Rain-Tour-Travel-Agency]
+<br/>
+[Figma](https://dribbble.com/shots/21872677-Rain-Tour-Travel-Agency)
 <br/>
 
 ## Stack
