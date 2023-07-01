@@ -31,8 +31,8 @@ type LayoutProps = {
 
 export default function Layout({
   seo = {
-    description: "",
-    title: "",
+    description: "Rain Tour - Travel Agency",
+    title: "Rain Tour - Travel Agency",
   },
   children,
   className,
