@@ -1,6 +1,13 @@
 ## Rain Tour UI
 
 Rain Tour UI Frontend
+
+![1](https://github.com/Asam237/rain-tour-ui/assets/34966088/05943043-a385-465a-bdf7-f022026b7105)
+
+![2](https://github.com/Asam237/rain-tour-ui/assets/34966088/16605049-d5f8-4e2f-8d5d-a18a84a32c1f)
+
+
+
 <br/>
 
 ## Stack
