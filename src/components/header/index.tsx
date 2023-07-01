@@ -2,12 +2,17 @@ import { HeaderData } from "@/data/header"
 import { HeaderType } from "@/types"
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import LogoPic from "../../../public/images/logo.png"
 import { AiOutlineMenu } from "react-icons/ai"
 
 export const Header = () => {
   const [navbar, setNavbar] = useState(false)
+  const [myPathname, setMyPathname] = useState("")
+
+  useEffect(() => {
+    setMyPathname(location.pathname)
+  }, [])
 
   return (
     <header className="py-8">
@@ -23,11 +28,20 @@ export const Header = () => {
               setNavbar(!navbar)
             }}
           />
-          <nav>
-            <ul className="hidden lg:flex flex-col lg:flex-row lg:space-x-20 text-lg font-medium lg:items-center text-gray-700 space-y-2 lg:space-y-0">
+          <nav className="hidden lg:flex">
+            <ul className="flex flex-col lg:flex-row lg:space-x-20 text-lg font-medium lg:items-center text-gray-700 space-y-2 lg:space-y-0">
               {HeaderData.map((item: HeaderType, index) => {
                 return (
                   <li key={index}>
+                    <div className="h-3">
+                      <div
+                        className={`${
+                          item?.path === myPathname
+                            ? "rounded-full w-1 h-3 bg-orange-500 mx-auto"
+                            : ""
+                        }`}
+                      ></div>
+                    </div>
                     <Link href={item.path}>{item.name}</Link>
                   </li>
                 )

@@ -5,7 +5,7 @@ export const poppins = localFont({
   variable: "--font-poppins",
   src: [
     {
-      path: "../fonts/poppins/Poppins-Light.ttf",
+      path: "../fonts/poppins/Poppins-Regular.ttf",
       weight: "300",
       style: "normal",
     },

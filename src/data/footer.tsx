@@ -16,7 +16,7 @@ export const FooterData: FooterType[] = [
   },
   {
     title: "Check out",
-    description: "20 March",
+    description: "20 March 2023",
     icon: <BiCalendar color="#00d3b3" size={20} />,
   },
   {
